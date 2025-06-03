@@ -16,20 +16,28 @@ This project provides a Python script that automates the creation of a new GitLa
 
 ## Setup
 
-### 1. Create and Activate a Virtual Environment
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/ishimto/create_gitrepo.git
+cd create_gitrepo
+```
+
+### 2. Create and Activate a Virtual Environment
 
 ```sh
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-### 2. Install Dependencies
+### 3. Install Dependencies
 
 ```sh
 pip install -r requirements.txt
 ```
 
-### 3. Set Required Environment Variables
+### 4. Set Required Environment Variables
 
 Set your GitLab instance URL and personal access token:
 
