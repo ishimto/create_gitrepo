@@ -2,5 +2,6 @@
 !**/*/
 !*.py
 !*.md
+!*.txt
 !.gitignore
 .venv
